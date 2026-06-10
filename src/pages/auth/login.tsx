@@ -4,7 +4,6 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { toast } from 'sonner';
-import { Helmet } from 'react-helmet-async';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { toAbsoluteUrl } from '@/lib/helpers';
@@ -42,9 +41,9 @@ export function LoginPage() {
 
   return (
     <div className="w-full min-h-screen bg-zinc-100 dark:bg-zinc-900 flex items-center justify-center px-4 py-10">
-      <Helmet>
+    
         <title>Sign In · ToDo App</title>
-      </Helmet>
+   
 
       <div className="w-full max-w-sm">
         {/* Logo */}

@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async';
+
 import { Wrapper } from './components/wrapper';
 import { LayoutProvider } from './components/context';
 import { TodoProvider } from './components/todo-context';
@@ -6,9 +6,9 @@ import { TodoProvider } from './components/todo-context';
 export function Layout39() {
   return (
     <>
-      <Helmet>
+     
         <title>KeenTodo</title>
-      </Helmet>
+     
 
       <LayoutProvider
         bodyClassName="bg-zinc-100 dark:bg-zinc-900 lg:overflow-hidden"
